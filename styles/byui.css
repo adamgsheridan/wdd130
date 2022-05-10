@@ -1,3 +1,28 @@
 body{
     text-align: center;
 }
+
+nav {
+    background-color: steelblue;
+    padding: 10px;
+}
+
+nav a{
+    color: white;
+    margin: 40px;
+    text-decoration: none;
+}
+
+h1 {
+    color: steelblue;
+}
+
+img {
+    /*Picture that teacher used on BYUI campus was set to 80%*/
+    width: 25%;
+    border: 4px solid steelblue;
+}
+
+p {
+    padding: 10px
+}
