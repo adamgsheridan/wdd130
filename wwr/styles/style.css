@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Rock+Salt&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -9,10 +11,14 @@ nav a {
 
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+    font-family: 'Rock Salt', 'Mukta', sans-serif;
+
 }
 
 .button-box {
     text-align: center;
+    font-family: 'Mukta', sans-serif;
+
 }
 
 main {
@@ -26,14 +32,27 @@ main {
 /*background colors*/
 body {
     background-color: #fcfbfb;
+    margin: 0;
+    padding: 0;
 }
 
 nav a:hover, .book:hover, .join:hover {
     background-color: white;
 }
 
-.book, .join, footer, header {
+.book, .join {
+    border-radius: 5px;
     background-color: #e4cc21;
+}
+
+header {
+    background-color: #e4cc21;
+}
+
+footer {
+    background-color: #e4cc21;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 #background {
@@ -42,6 +61,7 @@ nav a:hover, .book:hover, .join:hover {
 
 .msg {
     background-color: #74593e;
+    padding: 35px;
 }
 
 /*font colors*/
@@ -49,6 +69,8 @@ nav a {
     text-align: center;
     color: #063d54;
     text-decoration: none;
+    font-family: 'Rock Salt', 'Mukta', sans-serif;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -57,42 +79,58 @@ nav a:hover {
 
 .home-title {
     color: #063d54;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
     color: #063d54;
+    font-family: 'Mukta', sans-serif;
 }
 
 .book, .join {
     text-align: center;
     color: #063d54;
     text-decoration: none;
+    font-family: 'Mukta', sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
 }
 
 .book:hover, .join:hover {
     color: #063d54;
 }
 
-.msg h2 {
+.msg {
     color: black;
+    font-size: .8em;
+    line-height: 1.5em;
 }
 
 h2 {
-    color: #063d54;
+    color: black;
+    font-family: 'Mukta', sans-serif;
+    margin: 0;
 }
 
 .msg p {
     color: black;
+    font-family: 'Mukta', sans-serif;
+    padding-bottom: 15px;
 }
 
 footer h3 {
     color: #063d54;
+    font-family: 'Mukta', sans-serif;
 }
 
 footer a {
     text-align: center;
     color: #063d54;
     text-decoration: none;
+    padding-top: 15px;
 }
 
 footer a:hover {
@@ -108,7 +146,32 @@ footer a:hover {
 }
 
 /*text decorations*/
-
 footer h3 a:hover {
     text-decoration: underline;
 }
+
+.river, .fire, .oars {
+    width: 80px;
+    margin: 200px 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+.river-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.riverforest, .camping, .boat {
+    border: 10px solid black;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
