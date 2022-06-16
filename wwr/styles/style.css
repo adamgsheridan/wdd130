@@ -69,7 +69,7 @@ footer {
 }
 
 .msg {
-    background-color: #74593e;
+    background-color: #9F7D5B;
     padding: 35px;
 }
 
@@ -87,14 +87,15 @@ nav a:hover {
 }
 
 .home-title {
-    color: #74593e;
+    color: #e4cc21;
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 25px;
     font-size: 2em;
     margin-top: 10px;
 }
 
 h4 {
-    color: #74593e;
+    color: #e4cc21;
     font-family: 'Mukta', sans-serif;
 }
 
@@ -113,7 +114,7 @@ h4 {
 }
 
 .msg {
-    color: black;
+    color: #063d54;
     font-size: .8em;
     line-height: 1.5em;
 }
@@ -151,7 +152,7 @@ footer a:hover {
 }
 
 .logo {
-    width: 80px;
+    width: 150px;
 }
 
 /*text decorations*/
@@ -251,6 +252,12 @@ nav {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+div.faq{
+    text-align: left;
+    Width: 80%;
+    text-indent: -2em;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -274,7 +281,7 @@ nav {
     }
     .home-title {
         font-size: 25px;
-        color: #6f7364;
+        color: #e4cc21;
     }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
