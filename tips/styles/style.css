@@ -39,21 +39,27 @@ main {
     width: 60%;
     text-indent: 20px;
     margin: 50px;
+    font-size: 15pt;
 }
 
 #tips1 {
-    display: grid;
-    grid-template-columns: 1fr;
+    /* */
 }
 
 #thingstips {
-    display: flex;
-    justify-content: space-around;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 15pt;
 }
 
-#thingstips p h1{
+#thingstips p h1 li{
     width: 60%;
     margin: 50px;
+    text-align: center;
+}
+
+#thingstips h1{
+    text-indent: 25px;
 }
 
 #thingstips hr{
@@ -61,13 +67,13 @@ main {
 }
 
 #gym {
-    display: flex;
-    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #party {
-    display: flex;
-    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #tips2 {
@@ -105,12 +111,46 @@ footer h3 a {
     color: #140107;
     font: "Playfair Display SC";
     font-size: 1.15em;
+    padding: 7px;
 }
 
 footer h3 a:hover {
     background-color: white;
     border-radius: 15px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*CSS that I dont know about*/
 
