@@ -23,6 +23,8 @@ nav a {
 /* content css is below*/
 main {
     grid-template-rows: 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 #content {
@@ -42,10 +44,6 @@ main {
     font-size: 15pt;
 }
 
-#tips1 {
-    /* */
-}
-
 #thingstips {
     width: 60%;
     margin: 0 auto;
@@ -60,6 +58,7 @@ main {
 
 #thingstips h1{
     text-indent: 25px;
+    text-align: center;
 }
 
 #thingstips hr{
@@ -76,11 +75,6 @@ main {
     margin-bottom: 20px;
 }
 
-#tips2 {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
 #pictures {
     display: flex;
     justify-content: space-around;
@@ -93,6 +87,37 @@ main {
 
 body {
     margin: 0;
+}
+
+#finishtips {
+    text-indent: 20px;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 15pt;
+}
+
+#finishtips p h1 li{
+    width: 60%;
+    margin: 50px;
+    text-align: center;
+}
+
+#finishtips h1{
+    text-align: center;
+}
+
+#finishtips hr{
+    width: 100%;
+}
+
+#college {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#focus {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* footer css is below*/
@@ -118,39 +143,6 @@ footer h3 a:hover {
     background-color: white;
     border-radius: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*CSS that I dont know about*/
 
